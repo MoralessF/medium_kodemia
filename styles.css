@@ -2,3 +2,25 @@
 {
     max-height: 1rem;
 }
+
+.medium-input-search
+{
+    border: none;
+}
+
+.medium-input-search:focus
+{
+    outline: none;
+}
+
+.asideLeft-bottom a
+{
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#757575;
+}
+
+.asideLeft-bottom a:hover
+{
+    color: #757575;
+}
