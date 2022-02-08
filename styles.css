@@ -24,3 +24,40 @@
 {
     color: #757575;
 }
+
+.autor-img
+{
+    width: 3rem;
+    height: 3rem;
+    object-fit:fill;
+}
+
+.autor-description
+{
+    font-size: 11px;
+    color:#757575;
+}
+
+.autor-name
+{
+    font-size: 16px;
+}
+
+.autor-name, .autor-description, .autor-img, .twitter-button
+{
+    cursor: pointer;
+}
+
+.recomendations a
+{
+    color: black;
+    font-weight: lighter;
+    background-color: lightgray;
+}
+
+.recomendations a:hover
+{
+    transition: 0.3s;
+    background-color: grey;
+    color: black;
+}
