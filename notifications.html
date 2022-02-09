@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/style.css">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>Notifications - Medium</title>
@@ -36,11 +37,69 @@
                             <svg class="mt-3 mb-3" width="28" height="28" viewBox="0 0 24 24" fill="none" aria-label="Write"><path d="M14 4a.5.5 0 0 0 0-1v1zm7 6a.5.5 0 0 0-1 0h1zm-7-7H4v1h10V3zM3 4v16h1V4H3zm1 17h16v-1H4v1zm17-1V10h-1v10h1zm-1 1a1 1 0 0 0 1-1h-1v1zM3 20a1 1 0 0 0 1 1v-1H3zM4 3a1 1 0 0 0-1 1h1V3z" fill="currentColor"></path><path d="M17.5 4.5l-8.46 8.46a.25.25 0 0 0-.06.1l-.82 2.47c-.07.2.12.38.31.31l2.47-.82a.25.25 0 0 0 .1-.06L19.5 6.5m-2-2l2.32-2.32c.1-.1.26-.1.36 0l1.64 1.64c.1.1.1.26 0 .36L19.5 6.5m-2-2l2 2" stroke="currentColor"></path></svg>
                         </a>
                     </div>
-                    <div>
-                        <a href="" class="p-0 m-0">
-                            <img src="assets/perfil.jpg" width="40" height="40" alt="" class="rounded-circle">
-                        </a>
+
+                    <div>            
+                        <input type="checkbox" id="btn_main">
+                        <div id="" class="btn-group dropup">
+                            <button id="ac" type="button" class="rounded-circle border-0 " data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="assets/perfil.jpg" width="26" height="26" alt="menu" class="rounded-circle">
+                            </button>
+                            <ul id="ss" class="dropdown-menu" styles="min-width:20rem;">
+                                <ul id="" class="listGeneral">
+                                    <li id=""> 
+                                        <div id="" class="cardCenter" >
+                                            <div class="profile">
+                                                <img src="assets/perfil.jpg" alt="@IzaacP7" >
+                                            </div>
+                                            <div class="d-flex flex-column align-items-center">
+                                                <div class="textProfile">
+                                                    <span> Tony Stark</span>              
+                                                    <span style="padding-top: .1rem;" >@ironMan</span>
+                                                </div>
+                                            </div>              
+                                        </div>
+                                    </li>
+                                    <li > 
+                                        <div class="cardCenter" >
+                                            <ul class="profileList">
+                                                <li>
+                                                    <span>Settings</span>
+                                                </li> <br>
+                                                <li>
+                                                    <span>Stats</span>
+                                                </li> <br>
+                                                <li>
+                                                    <span>Manage publications</span>
+                                                </li><br>
+                                                <li>
+                                                    <span>Refine recommendations</span>
+                                                </li><br>
+                                                <li>
+                                                    <span>Sing out</span>
+                                                </li><br>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li> 
+                                        <div class="cardCenter" >
+                                            <ul class="profileList">
+                                                <li>
+                                                    <span>Medium Parthner Program</span>
+                                                </li><br>
+                                                <li>
+                                                    <span>Gift a membership</span>
+                                                </li><br>
+                                                <li>
+                                                    <span>Become a member</span>
+                                                </li><br>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </ul>
+                        </div>
                     </div>
+                    
                 </div>
             </div>
             <div class="col-xl-8 offset-xl-1">
@@ -99,10 +158,66 @@
                                 <svg width="25" height="25" viewBox="0 0 25 25" fill="none" class="cu" aria-label="Reading list"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 3a2 2 0 0 0-2 2v1H6a2 2 0 0 0-2 2v14a.5.5 0 0 0 .8.4l5.7-4.4 5.7 4.4a.5.5 0 0 0 .8-.4V8a2 2 0 0 0-2-2H9V5a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v12a.5.5 0 1 0 1 0V5a2 2 0 0 0-2-2h-9zM5 8a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v12.98l-5.2-4a.5.5 0 0 0-.6 0l-5.2 4V8z" fill="#A8A8A8"></path></svg>
                             </a>
                         </div>
-                        <div class="col d-flex justify-content-center p-0">
-                            <a href="" class="p-0 m-0">
-                                <img src="assets/perfil.jpg" width="25" height="25" alt="" class="rounded-circle">
-                            </a>
+                        <div class="col d-flex justify-content-center p-0">            
+                            <input type="checkbox" id="btn_main">
+                            <div id="" class="btn-group dropup">
+                                <button id="ac" type="button" class="rounded-circle border-0 " data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img src="assets/perfil.jpg" width="26" height="26" alt="menu" class="rounded-circle">
+                                </button>
+                                <ul id="ss" class="dropdown-menu">
+                                    <ul id="" class="listGeneral">
+                                        <li id=""> 
+                                            <div id="" class="cardCenter" >
+                                                <div class="profile">
+                                                    <img src="https://avatars.githubusercontent.com/u/88631744?s=40&amp;v=4" alt="@IzaacP7" >
+                                                </div>
+                                                <div class="d-flex flex-column align-items-center">
+                                                    <div class="textProfile">
+                                                        <span> User Name</span>              
+                                                        <span style="padding-top: .1rem;" >@nameuser2022</span>
+                                                    </div>
+                                                </div>              
+                                            </div>
+                                        </li>
+                                        <li > 
+                                            <div class="cardCenter" >
+                                                <ul class="profileList">
+                                                    <li>
+                                                        <span>Settings</span>
+                                                    </li> <br>
+                                                    <li>
+                                                        <span>Stats</span>
+                                                    </li> <br>
+                                                    <li>
+                                                        <span>Manage publications</span>
+                                                    </li><br>
+                                                    <li>
+                                                        <span>Refine recommendations</span>
+                                                    </li><br>
+                                                    <li>
+                                                        <span>Sing out</span>
+                                                    </li><br>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li> 
+                                            <div class="cardCenter" >
+                                                <ul class="profileList">
+                                                    <li>
+                                                        <span>Medium Parthner Program</span>
+                                                    </li><br>
+                                                    <li>
+                                                        <span>Gift a membership</span>
+                                                    </li><br>
+                                                    <li>
+                                                        <span>Become a member</span>
+                                                    </li><br>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -234,5 +349,6 @@
 
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
