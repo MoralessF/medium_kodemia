@@ -61,3 +61,8 @@
     background-color: grey;
     color: black;
 }
+
+.isaac_menu
+{
+  min-width: 1rem;
+}
