@@ -1,371 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="css/style.css">
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <title>Medium</title>
-</head>
-<body>
-    <div class="container-fluid p-0 m-0">
-        <div class="row p-0 m-0 ">
-            <div class="col d-none d-xl-block col-1 m-0 p-0 border-end position-fixed top-0 h-100">
-                <div class="d-flex flex-column align-items-center justify-content-between h-100 pt-5 pb-5">
-                    <div>
-                        <a href="index.html" class="d-flex justify-content-center align-items-center">
-                            <img class="medium-img" src="assets/medium.png" alt="">
-                        </a>
-                    </div>
-                    <div class="d-flex flex-column navbar-left-svgs">
-                        <a href="" class="text-black">
-                            <svg class="mt-3 mb-3" width="28" height="28" viewBox="0 0 24 24" fill="none" aria-label="Home"><path d="M4.5 21.25V10.87c0-.07.04-.15.1-.2l7.25-5.43a.25.25 0 0 1 .3 0l7.25 5.44c.06.04.1.12.1.2v10.37c0 .14-.11.25-.25.25h-4.5a.25.25 0 0 1-.25-.25v-5.5a.25.25 0 0 0-.25-.25h-4.5a.25.25 0 0 0-.25.25v5.5c0 .14-.11.25-.25.25h-4.5a.25.25 0 0 1-.25-.25z" fill="currentColor" stroke="currentColor" stroke-linejoin="round"></path><path d="M22 9l-9.1-6.83a1.5 1.5 0 0 0-1.8 0L2 9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-                        </a>
-                        <a href="notifications.html" class="text-black">
-                            <svg class="mt-3 mb-3" width="28" height="28" viewBox="0 0 24 24" fill="none" aria-label="Notifications"><path d="M15 18.5a3 3 0 1 1-6 0" stroke="currentColor" stroke-linecap="round"></path><path d="M5.5 10.53V9a6.5 6.5 0 0 1 13 0v1.53c0 1.42.56 2.78 1.57 3.79l.03.03c.26.26.4.6.4.97v2.93c0 .14-.11.25-.25.25H3.75a.25.25 0 0 1-.25-.25v-2.93c0-.37.14-.71.4-.97l.03-.03c1-1 1.57-2.37 1.57-3.79z" stroke="currentColor" stroke-linejoin="round"></path></svg>
-                        </a>
-                        <a href="lists.html" class="text-black">
-                            <svg class="mt-3 mb-3" width="28" height="28" viewBox="0 0 24 24" fill="none" aria-label="Lists"><path d="M4.5 6.25V21c0 .2.24.32.4.2l5.45-4.09a.25.25 0 0 1 .3 0l5.45 4.09c.16.12.4 0 .4-.2V6.25a.25.25 0 0 0-.25-.25H4.75a.25.25 0 0 0-.25.25z" stroke="currentColor" stroke-linecap="round"></path><path d="M8 6V3.25c0-.14.11-.25.25-.25h11.5c.14 0 .25.11.25.25V16.5" stroke="currentColor" stroke-linecap="round"></path></svg>
-                        </a>
-                        <a href="stories.html" class="text-black">
-                            <svg class="mt-3 mb-3" width="28" height="28" viewBox="0 0 24 24" fill="none" aria-label="Stories"><path d="M4.75 21.5h14.5c.14 0 .25-.11.25-.25V2.75a.25.25 0 0 0-.25-.25H4.75a.25.25 0 0 0-.25.25v18.5c0 .14.11.25.25.25z" stroke="currentColor"></path><path d="M8 8.5h8M8 15.5h5M8 12h8" stroke="currentColor" stroke-linecap="round"></path></svg>
-                        </a>
-                        <a href="write.html" class="text-black">
-                            <svg class="mt-3 mb-3" width="28" height="28" viewBox="0 0 24 24" fill="none" aria-label="Write"><path d="M14 4a.5.5 0 0 0 0-1v1zm7 6a.5.5 0 0 0-1 0h1zm-7-7H4v1h10V3zM3 4v16h1V4H3zm1 17h16v-1H4v1zm17-1V10h-1v10h1zm-1 1a1 1 0 0 0 1-1h-1v1zM3 20a1 1 0 0 0 1 1v-1H3zM4 3a1 1 0 0 0-1 1h1V3z" fill="currentColor"></path><path d="M17.5 4.5l-8.46 8.46a.25.25 0 0 0-.06.1l-.82 2.47c-.07.2.12.38.31.31l2.47-.82a.25.25 0 0 0 .1-.06L19.5 6.5m-2-2l2.32-2.32c.1-.1.26-.1.36 0l1.64 1.64c.1.1.1.26 0 .36L19.5 6.5m-2-2l2 2" stroke="currentColor"></path></svg>
-                        </a>
-                    </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="css/style.css">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <title>Medium</title>
+    </head>
+    <body>
 
-                    <div>            
-                        <input type="checkbox" id="btn_main">
-                        <div id="" class="btn-group dropup">
-                            <button id="ac" type="button" class="rounded-circle border-0 " data-bs-toggle="dropdown" aria-expanded="false">
-                                <img src="assets/perfil.jpg" width="26" height="26" alt="menu" class="rounded-circle">
-                            </button>
-                            <ul id="ss" class="dropdown-menu" styles="min-width:20rem;">
-                                <ul id="" class="listGeneral">
-                                    <li id=""> 
-                                        <div id="" class="cardCenter" >
-                                            <div class="profile">
-                                                <img src="assets/perfil.jpg" alt="@IzaacP7" >
-                                            </div>
-                                            <div class="d-flex flex-column align-items-center">
-                                                <div class="textProfile">
-                                                    <span> Tony Stark</span>              
-                                                    <span style="padding-top: .1rem;" >@ironMan</span>
-                                                </div>
-                                            </div>              
-                                        </div>
-                                    </li>
-                                    <li > 
-                                        <div class="cardCenter" >
-                                            <ul class="profileList">
-                                                <li>
-                                                    <span>Settings</span>
-                                                </li> <br>
-                                                <li>
-                                                    <span>Stats</span>
-                                                </li> <br>
-                                                <li>
-                                                    <span>Manage publications</span>
-                                                </li><br>
-                                                <li>
-                                                    <span>Refine recommendations</span>
-                                                </li><br>
-                                                <li>
-                                                    <span>Sing out</span>
-                                                </li><br>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li> 
-                                        <div class="cardCenter" >
-                                            <ul class="profileList">
-                                                <li>
-                                                    <span>Medium Parthner Program</span>
-                                                </li><br>
-                                                <li>
-                                                    <span>Gift a membership</span>
-                                                </li><br>
-                                                <li>
-                                                    <span>Become a member</span>
-                                                </li><br>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </ul>
-                        </div>
-                    </div>
-                   
-                </div>
-            </div>
-            <div class="col-xl-8 offset-xl-1">
-                <div class="container-fluid bg-white pt-3 pb-3 mb-2 shadow-sm d-xl-none">
-                    <div class="row d-flex justify-content-between">
-                        <div class="col logo_medium d-flex justify-content-start">
-                            <a href="">
-                                <svg viewBox="0 0 1043.63 1100" height="50" width="50"><g data-name="Layer 2"><g data-name="Layer 1"><path d="M588.67 296.36c0 163.67-131.78 296.35-294.33 296.35S0 460 0 296.36 131.78 0 294.34 0s294.33 132.69 294.33 296.36M911.56 296.36c0 154.06-65.89 279-147.17 279s-147.17-124.94-147.17-279 65.88-279 147.16-279 147.17 124.9 147.17 279M1043.63 296.36c0 138-23.17 249.94-51.76 249.94s-51.75-111.91-51.75-249.94 23.17-249.94 51.75-249.94 51.76 111.9 51.76 249.94"></path></g></g></svg>
+        <div class="container-fluid p-0 m-0">
+            <div class="row p-0 m-0 ">
+                <div class="col d-none d-xl-block col-1 m-0 p-0 border-end position-fixed top-0 h-100">
+                    <div class="d-flex flex-column align-items-center justify-content-between h-100 pt-5 pb-5">
+                        <div>
+                            <a href="index.html" class="d-flex justify-content-center align-items-center">
+                                <img class="medium-img" src="assets/medium.png" alt="">
                             </a>
                         </div>
-                        <div class="col d-flex justify-content-end">
-                            <a class="text-decoration-none text-success d-md-none pe-2" href="">
-                                Open in app
+                        <div class="d-flex flex-column navbar-left-svgs">
+                            <a href="" class="text-black">
+                                <svg class="mt-3 mb-3" width="28" height="28" viewBox="0 0 24 24" fill="none" aria-label="Home"><path d="M4.5 21.25V10.87c0-.07.04-.15.1-.2l7.25-5.43a.25.25 0 0 1 .3 0l7.25 5.44c.06.04.1.12.1.2v10.37c0 .14-.11.25-.25.25h-4.5a.25.25 0 0 1-.25-.25v-5.5a.25.25 0 0 0-.25-.25h-4.5a.25.25 0 0 0-.25.25v5.5c0 .14-.11.25-.25.25h-4.5a.25.25 0 0 1-.25-.25z" fill="currentColor" stroke="currentColor" stroke-linejoin="round"></path><path d="M22 9l-9.1-6.83a1.5 1.5 0 0 0-1.8 0L2 9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                             </a>
-                            <a href="" class="border rounded-circle d-flex align-items-center">
-                                <svg width="25" height="25" viewBox="-293 409 25 25" class="cm"><path d="M-273.33 423.67l-1.67-1.52v-3.65a5.5 5.5 0 0 0-6.04-5.47 5.66 5.66 0 0 0-4.96 5.71v3.41l-1.68 1.55a1 1 0 0 0-.32.74V427a1 1 0 0 0 1 1h3.49a3.08 3.08 0 0 0 3.01 2.45 3.08 3.08 0 0 0 3.01-2.45h3.49a1 1 0 0 0 1-1v-2.59a1 1 0 0 0-.33-.74zm-7.17 5.63c-.84 0-1.55-.55-1.81-1.3h3.62a1.92 1.92 0 0 1-1.81 1.3zm6.35-2.45h-12.7v-2.35l1.63-1.5c.24-.22.37-.53.37-.85v-3.41a4.51 4.51 0 0 1 3.92-4.57 4.35 4.35 0 0 1 4.78 4.33v3.65c0 .32.14.63.38.85l1.62 1.48v2.37z"></path></svg>
+                            <a href="notifications.html" class="text-black">
+                                <svg class="mt-3 mb-3" width="28" height="28" viewBox="0 0 24 24" fill="none" aria-label="Notifications"><path d="M15 18.5a3 3 0 1 1-6 0" stroke="currentColor" stroke-linecap="round"></path><path d="M5.5 10.53V9a6.5 6.5 0 0 1 13 0v1.53c0 1.42.56 2.78 1.57 3.79l.03.03c.26.26.4.6.4.97v2.93c0 .14-.11.25-.25.25H3.75a.25.25 0 0 1-.25-.25v-2.93c0-.37.14-.71.4-.97l.03-.03c1-1 1.57-2.37 1.57-3.79z" stroke="currentColor" stroke-linejoin="round"></path></svg>
                             </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="container-fluid w-100 p-4">
-                    <div class="main-content mb-5">
-                        <div class="stories-component m-3">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
-                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
-                            </svg>
-                            <span>Keep up with the latest in any topic</span>
-                        </div>
-                        <div class="stories-images m-3 mt-4">
-                            <img src="./assets/1_guM2pkuWV_jKfl-5gWlaXQ.jpeg" alt="" class="rounded-circle me-2">
-                            <img src="./assets/1_tPfbBeQ23qMKUptWlw1FaQ.jpeg" alt="" class="rounded-circle">
-                        </div>
-                        <div class="menu-following-recommended">
-                            <div class="m-3 mt-4">
-                                <div class="row row-cols-auto border-bottom">
-                                    <div class="col ms-1">
-                                        <span class="text-secondary pb-2">Following</span>
-                                    </div>
-                                    <div class="col border-bottom border-dark pb-2">
-                                        <span>Recommended</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="stories-section m-3">
-                            <div class="card-article border-bottom pb-2">
-                                <div class="article-info">
-                                    <img src="./assets/1_guM2pkuWV_jKfl-5gWlaXQ.jpeg" alt="" class="rounded-circle" width="24" height="24">
-                                    <span class="fs-6">Ayodeji Awosika <span class="text-secondary">in</span> Mind Cafe</span>
-                                    <span>·</span>
-                                    <span class="fs-6 text-secondary">Jan 7</span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                                      </svg>
-                                </div>
-                                <div class="article-text-and-photo m-2 d-flex justify-content-between">
-                                    <div class="article-text d-flex flex-column justify-content-between">
-                                        <div class="article-title d-flex">
-                                            <span class="fw-bold mb-3 mt-2"> <a href="./article.html" class="text-decoration-none text-dark">8 Really Small Things You Probably Do</a></span>
-                                        </div>
-                                        <div class="d-none d-md-block">
-                                            <p class="text-secondary"><a href="./article.html" class="text-decoration-none text-secondary">The new era is all about online learning!</a></p>
-                                        </div>
-                                        <div class="article-tag-read d-flex justify-content-between pe-4">
-                                            <div>
-                                                <a href="" class="badge rounded-pill bg-light text-decoration-none text-secondary fw-normal">Relationships</a>
-                                                <span class="text-secondary fs-6 fw-normal">7 min read</span>
-                                                <span>·</span>
-                                                <span class="d-none d-md-inline text-secondary fs-6 fw-normal">Editor's choice</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="d-flex align-items-end">
-                                        <div class="me-3 d-flex">
-                                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" class="sh"><path d="M8 5a2 2 0 0 0-2 2v14a.5.5 0 0 0 .8.4l5.7-4.4 5.7 4.4a.5.5 0 0 0 .8-.4V7a2 2 0 0 0-2-2H8z" fill="#292929"></path></svg>
-                                            <svg class="eh el qf" width="25" height="25"><path d="M5 12.5c0 .55.2 1.02.59 1.41.39.4.86.59 1.41.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41A1.93 1.93 0 0 0 7 10.5c-.55 0-1.02.2-1.41.59-.4.39-.59.86-.59 1.41zm5.62 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.42.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41a1.93 1.93 0 0 0-1.41-.59c-.55 0-1.03.2-1.42.59-.39.39-.58.86-.58 1.41zm5.6 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.43.59.56 0 1.03-.2 1.42-.59.39-.39.58-.86.58-1.41 0-.55-.2-1.02-.58-1.41a1.93 1.93 0 0 0-1.42-.59c-.56 0-1.04.2-1.43.59-.39.39-.58.86-.58 1.41z" fill-rule="evenodd"></path></svg>
-                                        </div>
-                                        <a href="./article.html">
-                                            <img src="./assets/articleone.jpeg" alt="" width="100" height="100">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-article border-bottom pb-2 mt-3">
-                                <div class="article-info">
-                                    <img src="./assets/1_tPfbBeQ23qMKUptWlw1FaQ.jpeg" alt="" class="rounded-circle" width="24" height="24">
-                                    <span class="fs-6">Diana Lotti <span class="text-secondary">in</span> Six Word Photo Challenge</span>
-                                    <span>·</span>
-                                    <span class="fs-6 text-secondary">2 days ago</span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                                      </svg>
-                                </div>
-                                <div class="article-text-and-photo m-2 d-flex justify-content-between">
-                                    <div class="article-text d-flex flex-column justify-content-between">
-                                        <div class="article-title d-flex">
-                                            <span class="fw-bold mb-3 mt-2">Straight Lines</span>
-                                        </div>
-                                        <div class="d-none d-md-block">
-                                            <p class="text-secondary">Sneak peek of my entry for today's photo challenge...</p>
-                                        </div>
-                                        <div class="article-tag-read d-flex justify-content-between pe-4">
-                                            <div>
-                                                <a href="" class="badge rounded-pill bg-light text-decoration-none text-secondary fw-normal">Photography</a>
-                                                <span class="text-secondary fs-6 fw-normal">1 min read</span>
-                                                <span>·</span>
-                                                <span class="d-none d-md-inline text-secondary fs-6 fw-normal">Popular on Medium</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="d-flex align-items-end">
-                                        <div class="me-3 d-flex">
-                                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" class="qe"><path d="M18 2.5a.5.5 0 0 1 1 0V5h2.5a.5.5 0 0 1 0 1H19v2.5a.5.5 0 1 1-1 0V6h-2.5a.5.5 0 0 1 0-1H18V2.5zM7 7a1 1 0 0 1 1-1h3.5a.5.5 0 0 0 0-1H8a2 2 0 0 0-2 2v14a.5.5 0 0 0 .8.4l5.7-4.4 5.7 4.4a.5.5 0 0 0 .8-.4v-8.5a.5.5 0 0 0-1 0v7.48l-5.2-4a.5.5 0 0 0-.6 0l-5.2 4V7z" fill="#292929"></path></svg>
-                                            <svg class="eh el qf" width="25" height="25"><path d="M5 12.5c0 .55.2 1.02.59 1.41.39.4.86.59 1.41.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41A1.93 1.93 0 0 0 7 10.5c-.55 0-1.02.2-1.41.59-.4.39-.59.86-.59 1.41zm5.62 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.42.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41a1.93 1.93 0 0 0-1.41-.59c-.55 0-1.03.2-1.42.59-.39.39-.58.86-.58 1.41zm5.6 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.43.59.56 0 1.03-.2 1.42-.59.39-.39.58-.86.58-1.41 0-.55-.2-1.02-.58-1.41a1.93 1.93 0 0 0-1.42-.59c-.56 0-1.04.2-1.43.59-.39.39-.58.86-.58 1.41z" fill-rule="evenodd"></path></svg>
-                                        </div>
-                                        <img src="./assets/articletwo.jpeg" alt="" width="100" height="100">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-article border-bottom pb-2 mt-3">
-                                <div class="article-info">
-                                    <img src="./assets/pp3.jpeg" alt="" class="rounded-circle" width="24" height="24">
-                                    <span class="fs-6">Destiny Harris <span class="text-secondary">in</span> Know and Heal</span>
-                                    <span>·</span>
-                                    <span class="fs-6 text-secondary">Jan 27</span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                                      </svg>
-                                </div>
-                                <div class="article-text-and-photo m-2 d-flex justify-content-between">
-                                    <div class="article-text d-flex flex-column justify-content-between">
-                                        <div class="article-title d-flex">
-                                            <span class="fw-bold mb-3 mt-2">Conveying our feelings</span>
-                                        </div>
-                                        <div class="d-none d-md-block">
-                                            <p class="text-secondary">A quick guide on what it takes to convey our feelings in 2022 and how this can ...</p>
-                                        </div>
-                                        <div class="article-tag-read d-flex justify-content-between pe-4">
-                                            <div>
-                                                <a href="" class="badge rounded-pill bg-light text-decoration-none text-secondary fw-normal">Photography</a>
-                                                <span class="text-secondary fs-6 fw-normal">15 min read</span>
-                                                <span>·</span>
-                                                <span class="d-none d-md-inline text-secondary fs-6 fw-normal">Selected for you</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="d-flex align-items-end">
-                                        <div class="me-3 d-flex">
-                                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" class="qe"><path d="M18 2.5a.5.5 0 0 1 1 0V5h2.5a.5.5 0 0 1 0 1H19v2.5a.5.5 0 1 1-1 0V6h-2.5a.5.5 0 0 1 0-1H18V2.5zM7 7a1 1 0 0 1 1-1h3.5a.5.5 0 0 0 0-1H8a2 2 0 0 0-2 2v14a.5.5 0 0 0 .8.4l5.7-4.4 5.7 4.4a.5.5 0 0 0 .8-.4v-8.5a.5.5 0 0 0-1 0v7.48l-5.2-4a.5.5 0 0 0-.6 0l-5.2 4V7z" fill="#292929"></path></svg>
-                                            <svg class="eh el qf" width="25" height="25"><path d="M5 12.5c0 .55.2 1.02.59 1.41.39.4.86.59 1.41.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41A1.93 1.93 0 0 0 7 10.5c-.55 0-1.02.2-1.41.59-.4.39-.59.86-.59 1.41zm5.62 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.42.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41a1.93 1.93 0 0 0-1.41-.59c-.55 0-1.03.2-1.42.59-.39.39-.58.86-.58 1.41zm5.6 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.43.59.56 0 1.03-.2 1.42-.59.39-.39.58-.86.58-1.41 0-.55-.2-1.02-.58-1.41a1.93 1.93 0 0 0-1.42-.59c-.56 0-1.04.2-1.43.59-.39.39-.58.86-.58 1.41z" fill-rule="evenodd"></path></svg>
-                                        </div>
-                                        <img src="./assets/articlethree.png" alt="" width="100" height="100">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-article border-bottom pb-2 mt-3">
-                                <div class="article-info">
-                                    <img src="./assets/pp4.png" alt="" class="rounded-circle" width="24" height="24">
-                                    <span class="fs-6">Tim Wise <span class="text-secondary">in</span> Self Improvement</span>
-                                    <span>·</span>
-                                    <span class="fs-6 text-secondary">Jan 1</span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                                      </svg>
-                                </div>
-                                <div class="article-text-and-photo m-2 d-flex justify-content-between">
-                                    <div class="article-text d-flex flex-column justify-content-between">
-                                        <div class="article-title d-flex">
-                                            <span class="fw-bold mb-3 mt-2">Books to read in 2022</span>
-                                        </div>
-                                        <div class="d-none d-md-block">
-                                            <p class="text-secondary">New Year, New List of Books YOU need to read this year.</p>
-                                        </div>
-                                        <div class="article-tag-read d-flex justify-content-between pe-4">
-                                            <div>
-                                                <a href="" class="badge rounded-pill bg-light text-decoration-none text-secondary fw-normal">Self Improvement</a>
-                                                <span class="text-secondary fs-6 fw-normal">4 min read</span>
-                                                <span>·</span>
-                                                <span class="d-none d-md-inline text-secondary fs-6 fw-normal">Editor's choice</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="d-flex align-items-end">
-                                        <div class="me-3 d-flex">
-                                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" class="qe"><path d="M18 2.5a.5.5 0 0 1 1 0V5h2.5a.5.5 0 0 1 0 1H19v2.5a.5.5 0 1 1-1 0V6h-2.5a.5.5 0 0 1 0-1H18V2.5zM7 7a1 1 0 0 1 1-1h3.5a.5.5 0 0 0 0-1H8a2 2 0 0 0-2 2v14a.5.5 0 0 0 .8.4l5.7-4.4 5.7 4.4a.5.5 0 0 0 .8-.4v-8.5a.5.5 0 0 0-1 0v7.48l-5.2-4a.5.5 0 0 0-.6 0l-5.2 4V7z" fill="#292929"></path></svg>
-                                            <svg class="eh el qf" width="25" height="25"><path d="M5 12.5c0 .55.2 1.02.59 1.41.39.4.86.59 1.41.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41A1.93 1.93 0 0 0 7 10.5c-.55 0-1.02.2-1.41.59-.4.39-.59.86-.59 1.41zm5.62 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.42.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41a1.93 1.93 0 0 0-1.41-.59c-.55 0-1.03.2-1.42.59-.39.39-.58.86-.58 1.41zm5.6 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.43.59.56 0 1.03-.2 1.42-.59.39-.39.58-.86.58-1.41 0-.55-.2-1.02-.58-1.41a1.93 1.93 0 0 0-1.42-.59c-.56 0-1.04.2-1.43.59-.39.39-.58.86-.58 1.41z" fill-rule="evenodd"></path></svg>
-                                        </div>
-                                        <img src="./assets/articlefour.png" alt="" width="100" height="100">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-article border-bottom pb-2 mt-3">
-                                <div class="article-info">
-                                    <img src="./assets/pp5.png" alt="" class="rounded-circle" width="24" height="24">
-                                    <span class="fs-6">Jenn Leach <span class="text-secondary">in</span> Marketing</span>
-                                    <span>·</span>
-                                    <span class="fs-6 text-secondary">Oct 8, 2021</span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-                                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                                      </svg>
-                                </div>
-                                <div class="article-text-and-photo m-2 d-flex justify-content-between">
-                                    <div class="article-text d-flex flex-column justify-content-between">
-                                        <div class="article-title d-flex">
-                                            <span class="fw-bold mb-3 mt-2">How much YouTube paid me for 68,000,000 views</span>
-                                        </div>
-                                        <div class="d-none d-md-block">
-                                            <p class="text-secondary">A case study of my faceless YT channel</p>
-                                        </div>
-                                        <div class="article-tag-read d-flex justify-content-between pe-4">
-                                            <div>
-                                                <a href="" class="badge rounded-pill bg-light text-decoration-none text-secondary fw-normal">Self Improvement</a>
-                                                <span class="text-secondary fs-6 fw-normal">4 min read</span>
-                                                <span>·</span>
-                                                <span class="d-none d-md-inline text-secondary fs-6 fw-normal">Editor's choice</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="d-flex align-items-end">
-                                        <div class="me-3 d-flex">
-                                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" class="qe"><path d="M18 2.5a.5.5 0 0 1 1 0V5h2.5a.5.5 0 0 1 0 1H19v2.5a.5.5 0 1 1-1 0V6h-2.5a.5.5 0 0 1 0-1H18V2.5zM7 7a1 1 0 0 1 1-1h3.5a.5.5 0 0 0 0-1H8a2 2 0 0 0-2 2v14a.5.5 0 0 0 .8.4l5.7-4.4 5.7 4.4a.5.5 0 0 0 .8-.4v-8.5a.5.5 0 0 0-1 0v7.48l-5.2-4a.5.5 0 0 0-.6 0l-5.2 4V7z" fill="#292929"></path></svg>
-                                            <svg class="eh el qf" width="25" height="25"><path d="M5 12.5c0 .55.2 1.02.59 1.41.39.4.86.59 1.41.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41A1.93 1.93 0 0 0 7 10.5c-.55 0-1.02.2-1.41.59-.4.39-.59.86-.59 1.41zm5.62 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.42.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41a1.93 1.93 0 0 0-1.41-.59c-.55 0-1.03.2-1.42.59-.39.39-.58.86-.58 1.41zm5.6 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.43.59.56 0 1.03-.2 1.42-.59.39-.39.58-.86.58-1.41 0-.55-.2-1.02-.58-1.41a1.93 1.93 0 0 0-1.42-.59c-.56 0-1.04.2-1.43.59-.39.39-.58.86-.58 1.41z" fill-rule="evenodd"></path></svg>
-                                        </div>
-                                        <img src="./assets/articlefive.jpeg" alt="" width="100" height="100">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            
-                <div class="container-fluid p-3 mt-2 bg-white position-fixed bottom-0 w-100 shadow d-xl-none">
-                    <div class="row d-flex justify-content-between">
-                        <div class="col d-flex justify-content-center p-0">
-                            <a href="index.html">
-                                <svg width="25" height="25" fill="none" aria-label="home"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.72 2.93a.45.45 0 0 1 .56 0l.34-.43-.34.43 9.37 7.5a.56.56 0 1 0 .7-.86l-9.38-7.5a1.55 1.55 0 0 0-1.94 0l-9.38 7.5a.56.56 0 0 0 .7.86l9.37-7.5zM9.5 22H6a2 2 0 0 1-2-2v-9.25a.5.5 0 0 1 .2-.4l7.2-5.4a1 1 0 0 1 1.2 0l7.2 5.4a.5.5 0 0 1 .2.4V20a2 2 0 0 1-2 2h-3.5a.5.5 0 0 1-.5-.5V17a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v4.5a.5.5 0 0 1-.5.5z" fill="#1A8917"></path></svg>
-                            </a>
-                        </div>
-                        <div class="col d-flex justify-content-center p-0">
-                            <a href="search.html">
-                                <svg width="25" height="25" fill="none" aria-label="search"><path fill-rule="evenodd" clip-rule="evenodd" d="M4.8 10.69a6.95 6.95 0 1 1 13.9 0 6.95 6.95 0 0 1-13.9 0zm6.95-8.05a8.05 8.05 0 1 0 5.13 14.26l3.75 3.75a.56.56 0 1 0 .79-.79l-3.73-3.73a8.05 8.05 0 0 0-5.94-13.5z" fill="#A8A8A8"></path></svg>
-                            </a>
-                        </div>
-                        <div class="col d-flex justify-content-center p-0">
                             <a href="lists.html" class="text-black">
-                                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" class="cu" aria-label="Reading list"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 3a2 2 0 0 0-2 2v1H6a2 2 0 0 0-2 2v14a.5.5 0 0 0 .8.4l5.7-4.4 5.7 4.4a.5.5 0 0 0 .8-.4V8a2 2 0 0 0-2-2H9V5a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v12a.5.5 0 1 0 1 0V5a2 2 0 0 0-2-2h-9zM5 8a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v12.98l-5.2-4a.5.5 0 0 0-.6 0l-5.2 4V8z" fill="#A8A8A8"></path></svg>
+                                <svg class="mt-3 mb-3" width="28" height="28" viewBox="0 0 24 24" fill="none" aria-label="Lists"><path d="M4.5 6.25V21c0 .2.24.32.4.2l5.45-4.09a.25.25 0 0 1 .3 0l5.45 4.09c.16.12.4 0 .4-.2V6.25a.25.25 0 0 0-.25-.25H4.75a.25.25 0 0 0-.25.25z" stroke="currentColor" stroke-linecap="round"></path><path d="M8 6V3.25c0-.14.11-.25.25-.25h11.5c.14 0 .25.11.25.25V16.5" stroke="currentColor" stroke-linecap="round"></path></svg>
+                            </a>
+                            <a href="stories.html" class="text-black">
+                                <svg class="mt-3 mb-3" width="28" height="28" viewBox="0 0 24 24" fill="none" aria-label="Stories"><path d="M4.75 21.5h14.5c.14 0 .25-.11.25-.25V2.75a.25.25 0 0 0-.25-.25H4.75a.25.25 0 0 0-.25.25v18.5c0 .14.11.25.25.25z" stroke="currentColor"></path><path d="M8 8.5h8M8 15.5h5M8 12h8" stroke="currentColor" stroke-linecap="round"></path></svg>
+                            </a>
+                            <a href="write.html" class="text-black">
+                                <svg class="mt-3 mb-3" width="28" height="28" viewBox="0 0 24 24" fill="none" aria-label="Write"><path d="M14 4a.5.5 0 0 0 0-1v1zm7 6a.5.5 0 0 0-1 0h1zm-7-7H4v1h10V3zM3 4v16h1V4H3zm1 17h16v-1H4v1zm17-1V10h-1v10h1zm-1 1a1 1 0 0 0 1-1h-1v1zM3 20a1 1 0 0 0 1 1v-1H3zM4 3a1 1 0 0 0-1 1h1V3z" fill="currentColor"></path><path d="M17.5 4.5l-8.46 8.46a.25.25 0 0 0-.06.1l-.82 2.47c-.07.2.12.38.31.31l2.47-.82a.25.25 0 0 0 .1-.06L19.5 6.5m-2-2l2.32-2.32c.1-.1.26-.1.36 0l1.64 1.64c.1.1.1.26 0 .36L19.5 6.5m-2-2l2 2" stroke="currentColor"></path></svg>
                             </a>
                         </div>
-                        <div class="col d-flex justify-content-center p-0">            
+    
+                        <div>            
                             <input type="checkbox" id="btn_main">
                             <div id="" class="btn-group dropup">
                                 <button id="ac" type="button" class="rounded-circle border-0 " data-bs-toggle="dropdown" aria-expanded="false">
                                     <img src="assets/perfil.jpg" width="26" height="26" alt="menu" class="rounded-circle">
                                 </button>
-                                <ul id="ss" class="dropdown-menu">
+                                <ul id="ss" class="dropdown-menu" styles="min-width:20rem;">
                                     <ul id="" class="listGeneral">
                                         <li id=""> 
                                             <div id="" class="cardCenter" >
                                                 <div class="profile">
-                                                    <img src="https://avatars.githubusercontent.com/u/88631744?s=40&amp;v=4" alt="@IzaacP7" >
+                                                    <img src="assets/perfil.jpg" alt="@IzaacP7" >
                                                 </div>
                                                 <div class="d-flex flex-column align-items-center">
                                                     <div class="textProfile">
-                                                        <span> User Name</span>              
-                                                        <span style="padding-top: .1rem;" >@nameuser2022</span>
+                                                        <span> Tony Stark</span>              
+                                                        <span style="padding-top: .1rem;" >@ironMan</span>
                                                     </div>
                                                 </div>              
                                             </div>
@@ -410,136 +100,446 @@
                                 </ul>
                             </div>
                         </div>
+                    
                     </div>
                 </div>
-            </div>
-
-            <div class="col border-start d-none d-xl-block col-xl-3 ps-3 pe-3 h-auto">
-                <div class="">
-                    <div class="m-2 pt-4">
-                        <a class="badge rounded-pill bg-dark text-decoration-none text-white w-100 p-3" href="">
-                            Upgrade
+                <div class="col-xl offset-xl-1">
+                    <div class="container-fluid bg-white pt-3 pb-3 mb-2 shadow-sm d-xl-none">
+                        <div class="row d-flex justify-content-between">
+                            <div class="col logo_medium d-flex justify-content-start">
+                                <a href="">
+                                    <svg viewBox="0 0 1043.63 1100" height="50" width="50"><g data-name="Layer 2"><g data-name="Layer 1"><path d="M588.67 296.36c0 163.67-131.78 296.35-294.33 296.35S0 460 0 296.36 131.78 0 294.34 0s294.33 132.69 294.33 296.36M911.56 296.36c0 154.06-65.89 279-147.17 279s-147.17-124.94-147.17-279 65.88-279 147.16-279 147.17 124.9 147.17 279M1043.63 296.36c0 138-23.17 249.94-51.76 249.94s-51.75-111.91-51.75-249.94 23.17-249.94 51.75-249.94 51.76 111.9 51.76 249.94"></path></g></g></svg>
+                                </a>
+                            </div>
+                            <div class="col d-flex justify-content-end">
+                                <a class="text-decoration-none text-success d-md-none pe-2" href="">
+                                    Open in app
+                                </a>
+                                <a href="" class="border rounded-circle d-flex align-items-center">
+                                    <svg width="25" height="25" viewBox="-293 409 25 25" class="cm"><path d="M-273.33 423.67l-1.67-1.52v-3.65a5.5 5.5 0 0 0-6.04-5.47 5.66 5.66 0 0 0-4.96 5.71v3.41l-1.68 1.55a1 1 0 0 0-.32.74V427a1 1 0 0 0 1 1h3.49a3.08 3.08 0 0 0 3.01 2.45 3.08 3.08 0 0 0 3.01-2.45h3.49a1 1 0 0 0 1-1v-2.59a1 1 0 0 0-.33-.74zm-7.17 5.63c-.84 0-1.55-.55-1.81-1.3h3.62a1.92 1.92 0 0 1-1.81 1.3zm6.35-2.45h-12.7v-2.35l1.63-1.5c.24-.22.37-.53.37-.85v-3.41a4.51 4.51 0 0 1 3.92-4.57 4.35 4.35 0 0 1 4.78 4.33v3.65c0 .32.14.63.38.85l1.62 1.48v2.37z"></path></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid w-100 p-4">
+                        <div class="main-content mb-5">
+                            <div class="stories-component m-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                    <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                                </svg>
+                                <span>Keep up with the latest in any topic</span>
+                            </div>
+                            <div class="stories-images m-3 mt-4">
+                                <img src="./assets/1_guM2pkuWV_jKfl-5gWlaXQ.jpeg" alt="" class="rounded-circle me-2">
+                                <img src="./assets/1_tPfbBeQ23qMKUptWlw1FaQ.jpeg" alt="" class="rounded-circle">
+                            </div>
+                            <div class="menu-following-recommended">
+                                <div class="m-3 mt-4">
+                                    <div class="row row-cols-auto border-bottom">
+                                        <div class="col ms-1">
+                                            <span class="text-secondary pb-2">Following</span>
+                                        </div>
+                                        <div class="col border-bottom border-dark pb-2">
+                                            <span>Recommended</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="stories-section m-3">
+                                <div class="card-article border-bottom pb-2">
+                                    <div class="article-info">
+                                        <img src="./assets/1_guM2pkuWV_jKfl-5gWlaXQ.jpeg" alt="" class="rounded-circle" width="24" height="24">
+                                        <span class="fs-6">Ayodeji Awosika <span class="text-secondary">in</span> Mind Cafe</span>
+                                        <span>·</span>
+                                        <span class="fs-6 text-secondary">Jan 7</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                    </div>
+                                    <div class="article-text-and-photo m-2 d-flex justify-content-between">
+                                        <div class="article-text d-flex flex-column justify-content-between">
+                                            <div class="article-title d-flex">
+                                                <span class="fw-bold mb-3 mt-2"> <a href="./article.html" class="text-decoration-none text-dark">8 Really Small Things You Probably Do</a></span>
+                                            </div>
+                                            <div class="d-none d-md-block">
+                                                <p class="text-secondary"><a href="./article.html" class="text-decoration-none text-secondary">The new era is all about online learning!</a></p>
+                                            </div>
+                                            <div class="article-tag-read d-flex justify-content-between pe-4">
+                                                <div>
+                                                    <a href="" class="badge rounded-pill bg-light text-decoration-none text-secondary fw-normal">Relationships</a>
+                                                    <span class="text-secondary fs-6 fw-normal">7 min read</span>
+                                                    <span>·</span>
+                                                    <span class="d-none d-md-inline text-secondary fs-6 fw-normal">Editor's choice</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-end">
+                                            <div class="me-3 d-flex">
+                                                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" class="sh"><path d="M8 5a2 2 0 0 0-2 2v14a.5.5 0 0 0 .8.4l5.7-4.4 5.7 4.4a.5.5 0 0 0 .8-.4V7a2 2 0 0 0-2-2H8z" fill="#292929"></path></svg>
+                                                <svg class="eh el qf" width="25" height="25"><path d="M5 12.5c0 .55.2 1.02.59 1.41.39.4.86.59 1.41.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41A1.93 1.93 0 0 0 7 10.5c-.55 0-1.02.2-1.41.59-.4.39-.59.86-.59 1.41zm5.62 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.42.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41a1.93 1.93 0 0 0-1.41-.59c-.55 0-1.03.2-1.42.59-.39.39-.58.86-.58 1.41zm5.6 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.43.59.56 0 1.03-.2 1.42-.59.39-.39.58-.86.58-1.41 0-.55-.2-1.02-.58-1.41a1.93 1.93 0 0 0-1.42-.59c-.56 0-1.04.2-1.43.59-.39.39-.58.86-.58 1.41z" fill-rule="evenodd"></path></svg>
+                                            </div>
+                                            <a href="./article.html">
+                                                <img src="./assets/articleone.jpeg" alt="" width="100" height="100">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-article border-bottom pb-2 mt-3">
+                                    <div class="article-info">
+                                        <img src="./assets/1_tPfbBeQ23qMKUptWlw1FaQ.jpeg" alt="" class="rounded-circle" width="24" height="24">
+                                        <span class="fs-6">Diana Lotti <span class="text-secondary">in</span> Six Word Photo Challenge</span>
+                                        <span>·</span>
+                                        <span class="fs-6 text-secondary">2 days ago</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                    </div>
+                                    <div class="article-text-and-photo m-2 d-flex justify-content-between">
+                                        <div class="article-text d-flex flex-column justify-content-between">
+                                            <div class="article-title d-flex">
+                                                <span class="fw-bold mb-3 mt-2">Straight Lines</span>
+                                            </div>
+                                            <div class="d-none d-md-block">
+                                                <p class="text-secondary">Sneak peek of my entry for today's photo challenge...</p>
+                                            </div>
+                                            <div class="article-tag-read d-flex justify-content-between pe-4">
+                                                <div>
+                                                    <a href="" class="badge rounded-pill bg-light text-decoration-none text-secondary fw-normal">Photography</a>
+                                                    <span class="text-secondary fs-6 fw-normal">1 min read</span>
+                                                    <span>·</span>
+                                                    <span class="d-none d-md-inline text-secondary fs-6 fw-normal">Popular on Medium</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-end">
+                                            <div class="me-3 d-flex">
+                                                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" class="qe"><path d="M18 2.5a.5.5 0 0 1 1 0V5h2.5a.5.5 0 0 1 0 1H19v2.5a.5.5 0 1 1-1 0V6h-2.5a.5.5 0 0 1 0-1H18V2.5zM7 7a1 1 0 0 1 1-1h3.5a.5.5 0 0 0 0-1H8a2 2 0 0 0-2 2v14a.5.5 0 0 0 .8.4l5.7-4.4 5.7 4.4a.5.5 0 0 0 .8-.4v-8.5a.5.5 0 0 0-1 0v7.48l-5.2-4a.5.5 0 0 0-.6 0l-5.2 4V7z" fill="#292929"></path></svg>
+                                                <svg class="eh el qf" width="25" height="25"><path d="M5 12.5c0 .55.2 1.02.59 1.41.39.4.86.59 1.41.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41A1.93 1.93 0 0 0 7 10.5c-.55 0-1.02.2-1.41.59-.4.39-.59.86-.59 1.41zm5.62 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.42.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41a1.93 1.93 0 0 0-1.41-.59c-.55 0-1.03.2-1.42.59-.39.39-.58.86-.58 1.41zm5.6 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.43.59.56 0 1.03-.2 1.42-.59.39-.39.58-.86.58-1.41 0-.55-.2-1.02-.58-1.41a1.93 1.93 0 0 0-1.42-.59c-.56 0-1.04.2-1.43.59-.39.39-.58.86-.58 1.41z" fill-rule="evenodd"></path></svg>
+                                            </div>
+                                            <img src="./assets/articletwo.jpeg" alt="" width="100" height="100">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-article border-bottom pb-2 mt-3">
+                                    <div class="article-info">
+                                        <img src="./assets/pp3.jpeg" alt="" class="rounded-circle" width="24" height="24">
+                                        <span class="fs-6">Destiny Harris <span class="text-secondary">in</span> Know and Heal</span>
+                                        <span>·</span>
+                                        <span class="fs-6 text-secondary">Jan 27</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                    </div>
+                                    <div class="article-text-and-photo m-2 d-flex justify-content-between">
+                                        <div class="article-text d-flex flex-column justify-content-between">
+                                            <div class="article-title d-flex">
+                                                <span class="fw-bold mb-3 mt-2">Conveying our feelings</span>
+                                            </div>
+                                            <div class="d-none d-md-block">
+                                                <p class="text-secondary">A quick guide on what it takes to convey our feelings in 2022 and how this can ...</p>
+                                            </div>
+                                            <div class="article-tag-read d-flex justify-content-between pe-4">
+                                                <div>
+                                                    <a href="" class="badge rounded-pill bg-light text-decoration-none text-secondary fw-normal">Photography</a>
+                                                    <span class="text-secondary fs-6 fw-normal">15 min read</span>
+                                                    <span>·</span>
+                                                    <span class="d-none d-md-inline text-secondary fs-6 fw-normal">Selected for you</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-end">
+                                            <div class="me-3 d-flex">
+                                                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" class="qe"><path d="M18 2.5a.5.5 0 0 1 1 0V5h2.5a.5.5 0 0 1 0 1H19v2.5a.5.5 0 1 1-1 0V6h-2.5a.5.5 0 0 1 0-1H18V2.5zM7 7a1 1 0 0 1 1-1h3.5a.5.5 0 0 0 0-1H8a2 2 0 0 0-2 2v14a.5.5 0 0 0 .8.4l5.7-4.4 5.7 4.4a.5.5 0 0 0 .8-.4v-8.5a.5.5 0 0 0-1 0v7.48l-5.2-4a.5.5 0 0 0-.6 0l-5.2 4V7z" fill="#292929"></path></svg>
+                                                <svg class="eh el qf" width="25" height="25"><path d="M5 12.5c0 .55.2 1.02.59 1.41.39.4.86.59 1.41.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41A1.93 1.93 0 0 0 7 10.5c-.55 0-1.02.2-1.41.59-.4.39-.59.86-.59 1.41zm5.62 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.42.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41a1.93 1.93 0 0 0-1.41-.59c-.55 0-1.03.2-1.42.59-.39.39-.58.86-.58 1.41zm5.6 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.43.59.56 0 1.03-.2 1.42-.59.39-.39.58-.86.58-1.41 0-.55-.2-1.02-.58-1.41a1.93 1.93 0 0 0-1.42-.59c-.56 0-1.04.2-1.43.59-.39.39-.58.86-.58 1.41z" fill-rule="evenodd"></path></svg>
+                                            </div>
+                                            <img src="./assets/articlethree.png" alt="" width="100" height="100">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-article border-bottom pb-2 mt-3">
+                                    <div class="article-info">
+                                        <img src="./assets/pp4.png" alt="" class="rounded-circle" width="24" height="24">
+                                        <span class="fs-6">Tim Wise <span class="text-secondary">in</span> Self Improvement</span>
+                                        <span>·</span>
+                                        <span class="fs-6 text-secondary">Jan 1</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                    </div>
+                                    <div class="article-text-and-photo m-2 d-flex justify-content-between">
+                                        <div class="article-text d-flex flex-column justify-content-between">
+                                            <div class="article-title d-flex">
+                                                <span class="fw-bold mb-3 mt-2">Books to read in 2022</span>
+                                            </div>
+                                            <div class="d-none d-md-block">
+                                                <p class="text-secondary">New Year, New List of Books YOU need to read this year.</p>
+                                            </div>
+                                            <div class="article-tag-read d-flex justify-content-between pe-4">
+                                                <div>
+                                                    <a href="" class="badge rounded-pill bg-light text-decoration-none text-secondary fw-normal">Self Improvement</a>
+                                                    <span class="text-secondary fs-6 fw-normal">4 min read</span>
+                                                    <span>·</span>
+                                                    <span class="d-none d-md-inline text-secondary fs-6 fw-normal">Editor's choice</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-end">
+                                            <div class="me-3 d-flex">
+                                                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" class="qe"><path d="M18 2.5a.5.5 0 0 1 1 0V5h2.5a.5.5 0 0 1 0 1H19v2.5a.5.5 0 1 1-1 0V6h-2.5a.5.5 0 0 1 0-1H18V2.5zM7 7a1 1 0 0 1 1-1h3.5a.5.5 0 0 0 0-1H8a2 2 0 0 0-2 2v14a.5.5 0 0 0 .8.4l5.7-4.4 5.7 4.4a.5.5 0 0 0 .8-.4v-8.5a.5.5 0 0 0-1 0v7.48l-5.2-4a.5.5 0 0 0-.6 0l-5.2 4V7z" fill="#292929"></path></svg>
+                                                <svg class="eh el qf" width="25" height="25"><path d="M5 12.5c0 .55.2 1.02.59 1.41.39.4.86.59 1.41.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41A1.93 1.93 0 0 0 7 10.5c-.55 0-1.02.2-1.41.59-.4.39-.59.86-.59 1.41zm5.62 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.42.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41a1.93 1.93 0 0 0-1.41-.59c-.55 0-1.03.2-1.42.59-.39.39-.58.86-.58 1.41zm5.6 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.43.59.56 0 1.03-.2 1.42-.59.39-.39.58-.86.58-1.41 0-.55-.2-1.02-.58-1.41a1.93 1.93 0 0 0-1.42-.59c-.56 0-1.04.2-1.43.59-.39.39-.58.86-.58 1.41z" fill-rule="evenodd"></path></svg>
+                                            </div>
+                                            <img src="./assets/articlefour.png" alt="" width="100" height="100">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-article border-bottom pb-2 mt-3">
+                                    <div class="article-info">
+                                        <img src="./assets/pp5.png" alt="" class="rounded-circle" width="24" height="24">
+                                        <span class="fs-6">Jenn Leach <span class="text-secondary">in</span> Marketing</span>
+                                        <span>·</span>
+                                        <span class="fs-6 text-secondary">Oct 8, 2021</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                        </svg>
+                                    </div>
+                                    <div class="article-text-and-photo m-2 d-flex justify-content-between">
+                                        <div class="article-text d-flex flex-column justify-content-between">
+                                            <div class="article-title d-flex">
+                                                <span class="fw-bold mb-3 mt-2">How much YouTube paid me for 68,000,000 views</span>
+                                            </div>
+                                            <div class="d-none d-md-block">
+                                                <p class="text-secondary">A case study of my faceless YT channel</p>
+                                            </div>
+                                            <div class="article-tag-read d-flex justify-content-between pe-4">
+                                                <div>
+                                                    <a href="" class="badge rounded-pill bg-light text-decoration-none text-secondary fw-normal">Self Improvement</a>
+                                                    <span class="text-secondary fs-6 fw-normal">4 min read</span>
+                                                    <span>·</span>
+                                                    <span class="d-none d-md-inline text-secondary fs-6 fw-normal">Editor's choice</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-end">
+                                            <div class="me-3 d-flex">
+                                                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" class="qe"><path d="M18 2.5a.5.5 0 0 1 1 0V5h2.5a.5.5 0 0 1 0 1H19v2.5a.5.5 0 1 1-1 0V6h-2.5a.5.5 0 0 1 0-1H18V2.5zM7 7a1 1 0 0 1 1-1h3.5a.5.5 0 0 0 0-1H8a2 2 0 0 0-2 2v14a.5.5 0 0 0 .8.4l5.7-4.4 5.7 4.4a.5.5 0 0 0 .8-.4v-8.5a.5.5 0 0 0-1 0v7.48l-5.2-4a.5.5 0 0 0-.6 0l-5.2 4V7z" fill="#292929"></path></svg>
+                                                <svg class="eh el qf" width="25" height="25"><path d="M5 12.5c0 .55.2 1.02.59 1.41.39.4.86.59 1.41.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41A1.93 1.93 0 0 0 7 10.5c-.55 0-1.02.2-1.41.59-.4.39-.59.86-.59 1.41zm5.62 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.42.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41a1.93 1.93 0 0 0-1.41-.59c-.55 0-1.03.2-1.42.59-.39.39-.58.86-.58 1.41zm5.6 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.43.59.56 0 1.03-.2 1.42-.59.39-.39.58-.86.58-1.41 0-.55-.2-1.02-.58-1.41a1.93 1.93 0 0 0-1.42-.59c-.56 0-1.04.2-1.43.59-.39.39-.58.86-.58 1.41z" fill-rule="evenodd"></path></svg>
+                                            </div>
+                                            <img src="./assets/articlefive.jpeg" alt="" width="100" height="100">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="container-fluid p-3 mt-2 bg-white position-fixed bottom-0 w-100 shadow d-xl-none">
+                        <div class="row d-flex justify-content-between">
+                            <div class="col d-flex justify-content-center p-0">
+                                <a href="index.html">
+                                    <svg width="25" height="25" fill="none" aria-label="home"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.72 2.93a.45.45 0 0 1 .56 0l.34-.43-.34.43 9.37 7.5a.56.56 0 1 0 .7-.86l-9.38-7.5a1.55 1.55 0 0 0-1.94 0l-9.38 7.5a.56.56 0 0 0 .7.86l9.37-7.5zM9.5 22H6a2 2 0 0 1-2-2v-9.25a.5.5 0 0 1 .2-.4l7.2-5.4a1 1 0 0 1 1.2 0l7.2 5.4a.5.5 0 0 1 .2.4V20a2 2 0 0 1-2 2h-3.5a.5.5 0 0 1-.5-.5V17a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v4.5a.5.5 0 0 1-.5.5z" fill="#1A8917"></path></svg>
+                                </a>
+                            </div>
+                            <div class="col d-flex justify-content-center p-0">
+                                <a href="search.html">
+                                    <svg width="25" height="25" fill="none" aria-label="search"><path fill-rule="evenodd" clip-rule="evenodd" d="M4.8 10.69a6.95 6.95 0 1 1 13.9 0 6.95 6.95 0 0 1-13.9 0zm6.95-8.05a8.05 8.05 0 1 0 5.13 14.26l3.75 3.75a.56.56 0 1 0 .79-.79l-3.73-3.73a8.05 8.05 0 0 0-5.94-13.5z" fill="#A8A8A8"></path></svg>
+                                </a>
+                            </div>
+                            <div class="col d-flex justify-content-center p-0">
+                                <a href="lists.html" class="text-black">
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" class="cu" aria-label="Reading list"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 3a2 2 0 0 0-2 2v1H6a2 2 0 0 0-2 2v14a.5.5 0 0 0 .8.4l5.7-4.4 5.7 4.4a.5.5 0 0 0 .8-.4V8a2 2 0 0 0-2-2H9V5a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v12a.5.5 0 1 0 1 0V5a2 2 0 0 0-2-2h-9zM5 8a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v12.98l-5.2-4a.5.5 0 0 0-.6 0l-5.2 4V8z" fill="#A8A8A8"></path></svg>
+                                </a>
+                            </div>
+                            <div class="col d-flex justify-content-center p-0">            
+                                <input type="checkbox" id="btn_main">
+                                <div id="" class="btn-group dropup">
+                                    <button id="ac" type="button" class="rounded-circle border-0 " data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img src="assets/perfil.jpg" width="26" height="26" alt="menu" class="rounded-circle">
+                                    </button>
+                                    <ul id="ss" class="dropdown-menu">
+                                        <ul id="" class="listGeneral">
+                                            <li id=""> 
+                                                <div id="" class="cardCenter" >
+                                                    <div class="profile">
+                                                        <img src="https://avatars.githubusercontent.com/u/88631744?s=40&amp;v=4" alt="@IzaacP7" >
+                                                    </div>
+                                                    <div class="d-flex flex-column align-items-center">
+                                                        <div class="textProfile">
+                                                            <span> User Name</span>              
+                                                            <span style="padding-top: .1rem;" >@nameuser2022</span>
+                                                        </div>
+                                                    </div>              
+                                                </div>
+                                            </li>
+                                            <li > 
+                                                <div class="cardCenter" >
+                                                    <ul class="profileList">
+                                                        <li>
+                                                            <span>Settings</span>
+                                                        </li> <br>
+                                                        <li>
+                                                            <span>Stats</span>
+                                                        </li> <br>
+                                                        <li>
+                                                            <span>Manage publications</span>
+                                                        </li><br>
+                                                        <li>
+                                                            <span>Refine recommendations</span>
+                                                        </li><br>
+                                                        <li>
+                                                            <span>Sing out</span>
+                                                        </li><br>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li> 
+                                                <div class="cardCenter" >
+                                                    <ul class="profileList">
+                                                        <li>
+                                                            <span>Medium Parthner Program</span>
+                                                        </li><br>
+                                                        <li>
+                                                            <span>Gift a membership</span>
+                                                        </li><br>
+                                                        <li>
+                                                            <span>Become a member</span>
+                                                        </li><br>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col border-start d-none d-xl-block col-xl-3 ps-3 pe-3 h-auto">
+                    <div class="">
+                        <div class="m-2 pt-4">
+                            <a class="badge rounded-pill bg-dark text-decoration-none text-white w-100 p-3" href="">
+                                Upgrade
+                            </a>
+                        </div>
+                        <div class="m-2 mt-4">
+                            <div class="badge rounded-pill border w-100">
+                                <span>
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="rgba(8, 8, 8, 1)">
+                                        <path d="M20.07 18.93l-4.16-4.15a6 6 0 1 0-.88.88l4.15 4.16a.62.62 0 1 0 .89-.89zM6.5 11a4.75 4.75 0 1 1 9.5 0 4.75 4.75 0 0 1-9.5 0z">
+                                        </path>
+                                    </svg>
+                                </span>
+                                <input class="medium-input-search w-100 p-2" type="text" placeholder="Search">
+                            </div>
+                            <div class="container border-bottom d-flex flex-column">
+                                <div class="text-center mt-3 mb-3">
+                                    <img src="assets/medium.png" alt="" class="w-25">
+                                    <svg width="19" height="19" class="bx">
+                                        <path d="M9 9H3v1h6v6h1v-6h6V9h-6V3H9v6z" fill-rule="evenodd">
+                                        </path>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#1DA1F2" class="bi bi-twitter" viewBox="0 0 16 16">
+                                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                                    </svg>
+                                </div>
+                                <div class="text-center mt-3 mb-3">
+                                    Discover Medium writers you already follow on Twitter
+                                </div>
+                                <div class="mt-3 mb-3 pt-2 pb-2 ps-5 pe-5 badge rounded-pill border text-black twitter-button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#1DA1F2" class="bi bi-twitter" viewBox="0 0 16 16">
+                                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                                    </svg>
+                                    Connect to Twitter
+                                </div>
+                                <div class="text-center mt-3 mb-3">
+                                    <a href="" class="text-black">
+                                        Maybe Later
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="pt-4">
+                                <h5>
+                                    Recommended topics
+                                </h5>
+                                <div class="recomendations">
+                                    <a href="" class="text-decoration-none badge rounded-pill p-2 me-1 mt-1 mb-1">Technology</a>
+                                    <a href="" class="text-decoration-none badge rounded-pill p-2 me-1 mt-1 mb-1">Money</a>
+                                    <a href="" class="text-decoration-none badge rounded-pill p-2 me-1 mt-1 mb-1">Business</a>
+                                    <a href="" class="text-decoration-none badge rounded-pill p-2 me-1 mt-1 mb-1">Productivity</a>
+                                    <a href="" class="text-decoration-none badge rounded-pill p-2 me-1 mt-1 mb-1">Psychology</a>
+                                    <a href="" class="text-decoration-none badge rounded-pill p-2 me-1 mt-1 mb-1">Mindfulness</a>
+                                    <a href="" class="text-decoration-none badge rounded-pill p-2 me-1 mt-1 mb-1">Art</a>
+                                </div>
+                            </div>
+                            <div class="pt-4">
+                                <h5>
+                                    Who to follow
+                                </h5>
+                                <div class="d-flex align-items-center">
+                                    <img src="https://miro.medium.com/fit/c/96/96/1*tPfbBeQ23qMKUptWlw1FaQ.jpeg" class="autor-img rounded-circle align-self-start me-2" alt="">
+                                    <div class="me-1">
+                                        <h2 class="autor-name">
+                                            Luke Shaw
+                                        </h6>
+                                        <p class="autor-description">
+                                            Author of "WANTING: The Power of Mimetic Desire in..."
+                                        </p>
+                                    </div>
+                                    <a href="" class="badge rounded-pill text-black border text-decoration-none p-2">
+                                        Follow
+                                    </a>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <img src="https://miro.medium.com/fit/c/64/64/1*DzkledvGHgi69C3rDmnIJg.jpeg" class="autor-img rounded-circle align-self-start me-2" alt="">
+                                    <div class="me-1">
+                                        <h2 class="autor-name">
+                                            Karim Souza
+                                        </h6>
+                                        <p class="autor-description">
+                                            Author of "You are not tired or depressed, it's burnout..."
+                                        </p>
+                                    </div>
+                                    <a href="" class="badge rounded-pill text-black border text-decoration-none p-2">
+                                        Follow
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="asideLeft-bottom pt-3 pb-3 d-flex flex-wrap">
+                        <a href="" class="text-decoration-none">
+                            <p class="m-0 p-1">Help</p>
+                        </a>
+                        <a href="" class="text-decoration-none">
+                            <p class="m-0 p-1">Status</p>
+                        </a>
+                        <a href="" class="text-decoration-none">
+                            <p class="m-0 p-1">Writers</p>
+                        </a>
+                        <a href="" class="text-decoration-none">
+                            <p class="m-0 p-1">Blog</p>
+                        </a>
+                        <a href="" class="text-decoration-none">
+                            <p class="m-0 p-1">Careers</p>
+                        </a>
+                        <a href="" class="text-decoration-none">
+                            <p class="m-0 p-1">Privacy</p>
+                        </a>
+                        <a href="" class="text-decoration-none">
+                            <p class="m-0 p-1">Terms</p>
+                        </a>
+                        <a href="" class="text-decoration-none">
+                            <p class="m-0 p-1">About</p>
+                        </a>
+                        <a href="" class="text-decoration-none">
+                            <p class="m-0 p-1">Knowable</p>
                         </a>
                     </div>
-                    <div class="m-2 mt-4">
-                        <div class="badge rounded-pill border w-100">
-                            <span>
-                                <svg width="25" height="25" viewBox="0 0 25 25" fill="rgba(8, 8, 8, 1)">
-                                    <path d="M20.07 18.93l-4.16-4.15a6 6 0 1 0-.88.88l4.15 4.16a.62.62 0 1 0 .89-.89zM6.5 11a4.75 4.75 0 1 1 9.5 0 4.75 4.75 0 0 1-9.5 0z">
-                                    </path>
-                                </svg>
-                            </span>
-                            <input class="medium-input-search w-100 p-2" type="text" placeholder="Search">
-                        </div>
-                        <div class="container border-bottom d-flex flex-column">
-                            <div class="text-center mt-3 mb-3">
-                                <img src="assets/medium.png" alt="" class="w-25">
-                                <svg width="19" height="19" class="bx">
-                                    <path d="M9 9H3v1h6v6h1v-6h6V9h-6V3H9v6z" fill-rule="evenodd">
-                                    </path>
-                                </svg>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#1DA1F2" class="bi bi-twitter" viewBox="0 0 16 16">
-                                    <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
-                                </svg>
-                            </div>
-                            <div class="text-center mt-3 mb-3">
-                                Discover Medium writers you already follow on Twitter
-                            </div>
-                            <div class="mt-3 mb-3 pt-2 pb-2 ps-5 pe-5 badge rounded-pill border text-black twitter-button">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#1DA1F2" class="bi bi-twitter" viewBox="0 0 16 16">
-                                    <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
-                                </svg>
-                                Connect to Twitter
-                            </div>
-                            <div class="text-center mt-3 mb-3">
-                                <a href="" class="text-black">
-                                    Maybe Later
-                                </a>
-                            </div>
-                        </div>
-                        <div class="pt-4">
-                            <h5>
-                                Recommended topics
-                            </h5>
-                            <div class="recomendations">
-                                <a href="" class="text-decoration-none badge rounded-pill p-2 me-1 mt-1 mb-1">Technology</a>
-                                <a href="" class="text-decoration-none badge rounded-pill p-2 me-1 mt-1 mb-1">Money</a>
-                                <a href="" class="text-decoration-none badge rounded-pill p-2 me-1 mt-1 mb-1">Business</a>
-                                <a href="" class="text-decoration-none badge rounded-pill p-2 me-1 mt-1 mb-1">Productivity</a>
-                                <a href="" class="text-decoration-none badge rounded-pill p-2 me-1 mt-1 mb-1">Psychology</a>
-                                <a href="" class="text-decoration-none badge rounded-pill p-2 me-1 mt-1 mb-1">Mindfulness</a>
-                                <a href="" class="text-decoration-none badge rounded-pill p-2 me-1 mt-1 mb-1">Art</a>
-                            </div>
-                        </div>
-                        <div class="pt-4">
-                            <h5>
-                                Who to follow
-                            </h5>
-                            <div class="d-flex align-items-center">
-                                <img src="https://miro.medium.com/fit/c/96/96/1*tPfbBeQ23qMKUptWlw1FaQ.jpeg" class="autor-img rounded-circle align-self-start me-2" alt="">
-                                <div class="me-1">
-                                    <h2 class="autor-name">
-                                        Luke Shaw
-                                    </h6>
-                                    <p class="autor-description">
-                                        Author of "WANTING: The Power of Mimetic Desire in..."
-                                    </p>
-                                </div>
-                                <a href="" class="badge rounded-pill text-black border text-decoration-none p-2">
-                                    Follow
-                                </a>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <img src="https://miro.medium.com/fit/c/64/64/1*DzkledvGHgi69C3rDmnIJg.jpeg" class="autor-img rounded-circle align-self-start me-2" alt="">
-                                <div class="me-1">
-                                    <h2 class="autor-name">
-                                        Karim Souza
-                                    </h6>
-                                    <p class="autor-description">
-                                        Author of "You are not tired, it's burnout..."
-                                    </p>
-                                </div>
-                                <a href="" class="badge rounded-pill text-black border text-decoration-none p-2">
-                                    Follow
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="asideLeft-bottom pt-3 pb-3 d-flex flex-wrap">
-                    <a href="" class="text-decoration-none">
-                        <p class="m-0 p-1">Help</p>
-                    </a>
-                    <a href="" class="text-decoration-none">
-                        <p class="m-0 p-1">Status</p>
-                    </a>
-                    <a href="" class="text-decoration-none">
-                        <p class="m-0 p-1">Writers</p>
-                    </a>
-                    <a href="" class="text-decoration-none">
-                        <p class="m-0 p-1">Blog</p>
-                    </a>
-                    <a href="" class="text-decoration-none">
-                        <p class="m-0 p-1">Careers</p>
-                    </a>
-                    <a href="" class="text-decoration-none">
-                        <p class="m-0 p-1">Privacy</p>
-                    </a>
-                    <a href="" class="text-decoration-none">
-                        <p class="m-0 p-1">Terms</p>
-                    </a>
-                    <a href="" class="text-decoration-none">
-                        <p class="m-0 p-1">About</p>
-                    </a>
-                    <a href="" class="text-decoration-none">
-                        <p class="m-0 p-1">Knowable</p>
-                    </a>
                 </div>
             </div>
-
         </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
 </html>
